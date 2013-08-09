@@ -33,8 +33,6 @@
 /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/js \
 /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/phonegap.js \
 /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/res \
-/Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/spec \
-/Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/spec.html \
 /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/views \
 /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/bower_components/angular \
 /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/bower_components/angular-cookies \
@@ -521,14 +519,6 @@
 /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/res/screen/tizen/README.md \
 /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/res/screen/webos/screen-64.png \
 /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/res/screen/windows-phone/screen-portrait.jpg \
-/Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/spec/helper.js \
-/Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/spec/index.js \
-/Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/spec/lib \
-/Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/spec/lib/jasmine-1.2.0 \
-/Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/spec/lib/jasmine-1.2.0/jasmine-html.js \
-/Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/spec/lib/jasmine-1.2.0/jasmine.css \
-/Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/spec/lib/jasmine-1.2.0/jasmine.js \
-/Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/spec/lib/jasmine-1.2.0/MIT.LICENSE \
 /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/views/item.html \
 /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/assets/www/views/main.html \
 /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/android/bin/AndroidManifest.xml \

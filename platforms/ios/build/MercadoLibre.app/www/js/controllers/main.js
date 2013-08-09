@@ -58,4 +58,5 @@ angular.module('mercadolibreApp').controller('MainCtrl', function ($scope, Searc
         $rootScope.offset = 0;
     }
 
+
   });
