@@ -1,0 +1,51 @@
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <a class="brand" href="#"><img src="img/ml.png"/></a>
+            <form class="form-search">
+                <div class="input-append">
+                    <input type="text" class="span2 search-query" placeholder="Buscar" ng-model="searchTerm"/>
+                    <button type="submit" class="btn" ng-click="search()"><i class="icon-search"></i></button>
+                </div>
+            </form>
+    </div>
+</div>
+
+<div class="container-fluid">
+	<ul id="list-view">
+		<li ng-repeat="item in items" class="list-view-item">
+			<a ng-href="#/{{item.id}}">
+			<div class="row-fluid">
+				<div class="span3">
+					<img ng-src="{{item.thumbnail}}"/>
+				</div>
+				<div class="span8">
+					<h3 class="list-view-item-title" ng-bind="item.title"></h3>
+					<p ng-show="item.sold_quantity" class="info quantity"><span ng-bind="item.sold_quantity"></span> vendidos</p>
+					<p class="info">
+						<span class="price-info-cost">
+							<strong class="ch-price">
+								$<span ng-bind="item.price"></span>
+							</strong>
+						</span>
+					</p>
+				</div>
+				<div class="span1 see-detail">
+					<i class="icon-chevron-right"></i>
+				</div>
+			</div>
+			</a>
+		</li>
+	</ul>
+
+	<div class="pagination pull-right">
+		<button ng-click="prevPage()" ng-show="hasPrev()" class="btn">
+			<i class="icon-step-backward"></i> Ant
+		</button>
+		<button ng-click="nextPage()" ng-show="hasNext()" class="btn">
+			Sig
+			<i class="icon-step-forward"></i>
+		</button>
+	</div>
+</div>
+
+

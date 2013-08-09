@@ -1,0 +1,163 @@
+body {
+  /*background: #fafafa;*/
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-size: 13px;
+}
+
+ul{
+  list-style: none;
+  margin-left: 0;
+}
+
+input{
+  width:65%;
+}
+
+h3{
+  margin: 0;
+}
+
+a:link {
+  color:#000;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+a:active {
+  color:#000;
+  text-decoration: none;
+}
+
+a img {
+  border: none;
+}
+
+.container-fluid{
+  margin-top: 70px;
+}
+
+.list-view-item{
+  border-bottom: 1px solid #cdcdcd;
+  padding: 15px 0px 15px 0px;
+}
+
+.list-view-item-title {
+  font-size: 16px;
+  line-height: 22px;
+  color: #484848;
+}
+
+.list-view-item-subtitle {
+  color: #666;
+  font-size: 11px;
+  line-height: 12px;
+  margin: 2px 0 5px 0;
+}
+
+.ch-price {
+  color: #900;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.installmentsQuantity {
+  color: #900;
+  font-weight: bold;
+}
+
+.info {
+  margin: 0;
+}
+
+.extra-info{
+  color: #555;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.search-form{
+  margin-top: 20px;
+}
+
+.item-title{
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.item-subtitle{
+  color: #666;
+  font-size: 15px;
+}
+
+.item-price{
+  color: #900;
+  font-size: 20px;
+}
+
+.infoProd{
+  /*margin-top: 60px;*/
+}
+
+#thumbnails{
+  margin-top: 20px;
+}
+
+.thumb{
+  max-width:40px;
+  max-height:40px;
+  margin-right: 10px;
+}
+
+.extra-info .info{
+  margin-bottom: 5px;
+}
+
+.spinner{
+  -webkit-border-radius:5px;
+  border-radius:5px;
+  position:absolute;
+  z-index:9998;
+  width:120px;
+  height:120px;
+  left: 50%;
+  top: 50%; 
+  margin-left: -60px;
+  margin-top: -60px;
+  background:#000 url("../img/loading.gif") center center no-repeat;
+  background-size:40px 40px;
+  background-color:#000;
+  opacity:.2;
+  display: none;
+}
+
+.form-search{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  width:25% !important;
+  float:left;
+}
+
+.search-query{
+  width:25% !important;
+}
+
+.see-detail{
+  margin-top: 40px;
+}
+
+.quantity{
+  color: #888888;
+}
+

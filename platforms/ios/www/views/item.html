@@ -1,0 +1,48 @@
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <a class="brand" href="#"><img src="img/ml.png"/></a>
+            <form class="form-search">
+                <div class="input-append">
+                    <input type="text" class="span2 search-query" placeholder="Buscar" ng-model="searchTerm"/>
+                    <button type="submit" class="btn" ng-click="search()"><i class="icon-search"></i></button>
+                </div>
+            </form>
+    </div>
+</div>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<a href="#/" class="btn btn-mini"><i class="icon-chevron-left"></i>Volver</a>
+		</div>
+	</div>
+		<div class="row-fluid">
+			<div class="span12">
+				<img ng-src="{{mainPicUrl}}"/>
+				<div id="thumbnails">
+					<a ng-repeat="image in item.pictures" ng-click="changeImg(image)" ng-mouseover="changeImg(image)">
+						<img ng-src="{{image.url}}" class="thumb">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="span12 infoProd">
+				<h1 class="item-title" ng-bind="item.title"></h1>
+				<p class="item-subtitle" ng-bind="item.subtitle"/>
+				<p class="item-price">
+					<span class="item-price-info-cost">
+						<strong class="item-ch-price">
+							$<span ng-bind="item.price"></span>
+						</strong>
+					</span>
+				</p>
+				<p>
+					<span class="info" ng-show="isNew(item)">Articulo nuevo</span> <span class="info" ng-hide="isNew(item)">Articulo usado</span>
+					<span ng-show="item.sold_quantity"> - </span>
+					<span ng-show="item.sold_quantity" class="info"><span ng-bind="item.sold_quantity"></span> vendidos</span>
+					<span ng-show="item.seller_address.state.name"> - </span>
+					<span class="info" ng-bind="item.seller_address.state.name"></span>
+				</p>
+			</div>
+		</div>
+</div>
