@@ -2,7 +2,6 @@
 
 angular.module('mercadolibreApp').controller('MainCtrl', function ($scope, Search, $rootScope) {   
 
-	$rootScope.offset = 0;
 	$scope.limit = 0;
 	$scope.total = 0;
 	$scope.items = [];
@@ -52,13 +51,11 @@ angular.module('mercadolibreApp').controller('MainCtrl', function ($scope, Searc
     	return $rootScope.offset != 0;
     }
 
-    $scope.isNew = function(item){
-    	return item.condition == "new";
-    }
-
     if($rootScope.term){
         $scope.searchTerm = $rootScope.term;
         $scope.basicSearch();
+    } else {
+        $rootScope.offset = 0;
     }
 
 

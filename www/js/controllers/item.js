@@ -19,4 +19,8 @@ angular.module('mercadolibreApp').controller('ItemCtrl', function ($scope, Item,
 		$location.url('#/');
 	}
 
+    $scope.isNew = function(item){
+    	return item.condition == "new";
+    }
+
 });
