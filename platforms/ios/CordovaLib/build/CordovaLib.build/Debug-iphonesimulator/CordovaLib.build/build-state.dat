@@ -48,6 +48,8 @@ cCpHeader Classes/CDVWebViewDelegate.h /Users/sofi/Documents/workspace/mercadoli
 cCpHeader Classes/CDVUserAgentUtil.h /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h
 cCpHeader Classes/CDVTimer.h /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/ios/build/include/Cordova/CDVTimer.h
 cProcessPCH /var/folders/5_/wk5hy_2d14q2bmdq3dzc_zwm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-bvrqruxkfilkvofpxsqiqlbjbyop/CordovaLib_Prefix.pch.pth CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVReachability.o /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/ios/CordovaLib/Classes/CDVReachability.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVAccelerometer.o /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/ios/CordovaLib/Classes/CDVAccelerometer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCamera.o /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/ios/CordovaLib/Classes/CDVCamera.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVContacts.o /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/ios/CordovaLib/Classes/CDVContacts.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
@@ -56,9 +58,7 @@ cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocation.o /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/ios/CordovaLib/Classes/CDVLocation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVNotification.o /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/ios/CordovaLib/Classes/CDVNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVReachability.o /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/ios/CordovaLib/Classes/CDVReachability.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVSound.o /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/ios/CordovaLib/Classes/CDVSound.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVAccelerometer.o /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/ios/CordovaLib/Classes/CDVAccelerometer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVContact.o /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/ios/CordovaLib/Classes/CDVContact.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVFileTransfer.o /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/ios/CordovaLib/Classes/CDVFileTransfer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
@@ -870,7 +870,7 @@ s2841944
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0377101571b5b741^8506461571b5b741^---0#1#0#--18"Check dependencies36"A4261F7D-B67D-4ABF-94EA-0ADCC9DCB972-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies768906247bb5b741^ae6463247bb5b741^---0#1#0#--18"Check dependencies36"BC9F7E4E-7F49-4D72-8E2D-E5EFCED02E18-
 
 CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVAccelerometer.o /Users/sofi/Documents/workspace/mercadolibre-mobile/platforms/ios/CordovaLib/Classes/CDVAccelerometer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s397712855.994480

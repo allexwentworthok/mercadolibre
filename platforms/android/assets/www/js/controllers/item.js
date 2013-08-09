@@ -16,7 +16,11 @@ angular.module('mercadolibreApp').controller('ItemCtrl', function ($scope, Item,
 	$scope.search = function(){
 		$rootScope.term = $scope.searchTerm;
 		$rootScope.offset = 0;
-		$location.url('/#');
+		$location.url('#/');
 	}
+
+    $scope.isNew = function(item){
+    	return item.condition == "new";
+    }
 
 });

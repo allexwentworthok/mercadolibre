@@ -32,12 +32,14 @@
 				<p class="item-price">
 					<span class="item-price-info-cost">
 						<strong class="item-ch-price">
-							$<span ng-bind="item.price"></span>
+							<span ng-show="item">$</span><span ng-bind="item.price"></span>
 						</strong>
 					</span>
 				</p>
 				<p>
-					<span class="info" ng-show="isNew(item)">Articulo nuevo</span> <span class="info" ng-hide="isNew(item)">Articulo usado</span>
+					<span ng-show="item">
+						<span class="info" ng-show="isNew(item)">Articulo nuevo</span> <span class="info" ng-hide="isNew(item)">Articulo usado</span>
+					</span>
 					<span ng-show="item.sold_quantity"> - </span>
 					<span ng-show="item.sold_quantity" class="info"><span ng-bind="item.sold_quantity"></span> vendidos</span>
 					<span ng-show="item.seller_address.state.name"> - </span>
